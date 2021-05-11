@@ -1,0 +1,170 @@
+/* CSS Document */
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	margin: 0;
+	padding: 0;
+	background-image: url(bg.jpg);
+	background-color: #000;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+}
+a {
+	color: #C60;
+	text-decoration: none;
+}
+a:hover {
+	color: #C90;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+a.tooltip {
+	position: relative;
+    z-index: 24;
+	background-color: #000;
+    color: #CCC;
+    text-decoration: none;
+}
+a.tooltip:hover {
+	z-index: 25;
+	background-color: #000;
+	cursor: help;
+}
+
+a.tooltip span {
+	display: none;
+}
+
+a.tooltip:hover span {
+    display: block;
+    position: absolute;
+    top: 2em; left:2em; width:15em;
+    border: 1px solid #666;
+	background-color: rgba(0,0,0,0.8);
+	color: #FFF;
+    text-align: center;
+}
+
+#heading {
+	background-color: rgba(25,25,25,0.25);
+	margin-left: 120px;
+	margin-right: 120px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #666;
+}
+
+#content {
+	background-color: rgba(25,25,25,0.25);
+	margin-left: 120px;
+	margin-right: 120px;
+	font-size: 14px;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #666;
+}
+#content p {
+	margin: 10px;
+	clear: both;
+}
+#content hr {
+	clear: both;
+	width: 50%;
+}
+#content table th {
+	background-color: rgba(25,25,25,0.5);
+}
+#content table tr:nth-child(even) {
+	background-color: rgba(25,25,25,0.25);
+}
+#content table tr:nth-child(odd) {
+	background-color: rgba(25,25,25,0.5);
+}
+#userList {
+	width: 180px;
+	margin: 1px;
+	padding: 5px;
+	float: left;
+	background-color: rgba(25,25,25,0.5);
+	text-align: center;
+}
+#userList a {
+	color: #C60;
+	text-decoration: none;
+}
+#userList a:hover {
+	color: #C90;
+	text-decoration: underline;
+}
+
+.wrapper {
+    width: 100%;
+    height: 25px;
+    background : #464646;
+    background : -webkit-gradient(linear, left top, left bottom, from(rgb(120,120,120)), to(rgb(40,40,40)));
+    background : -moz-linear-gradient(top, rgb(120,120,120), rgb(40,40,40));
+    border-top: 1px solid #09F;
+    border-bottom: 1px solid #09F;
+    position: relative;
+    margin-bottom: 30px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul.menu {
+    height: 25px;
+    border-left: 1px solid rgba(0,0,0,0.3);
+    border-right: 1px solid rgba(255,255,255,0.3);
+    float:left;
+}
+
+ul.menu li {
+    list-style: none;
+    float:left;
+    height: 25px;
+    text-align: center;
+    background: -webkit-gradient(radial, 50% 100%, 10, 50% 50%, 90, from(rgba(31,169,244,1)), to(rgba(0,28,78, 1)) );
+    background: -moz-radial-gradient(center 80px 45deg, circle cover, rgba(31,169,244,1) 0%, rgba(0,28,78, 1) 100%);
+    }
+
+ul li a {
+    display: block;
+    padding: 0 20px;
+    border-left: 1px solid rgba(255,255,255,0.1);
+    border-right: 1px solid rgba(0,0,0,0.1);
+    text-align: center;
+    line-height: 25px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(120,120,120)), to(rgb(40,40,40)));
+    background: -moz-linear-gradient(top, rgb(120,120,120), rgb(40,40,40));
+    -webkit-transition-property: background;
+    -webkit-transition-duration: 700ms;
+    -moz-transition-property: background;
+    -moz-transition-duration: 700ms;
+    text-decoration: none;
+    color: #252525;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.4);
+    }
+
+ul li a:hover {
+    background: transparent none;
+	color: #000;
+}
+
+ul li.active a {
+	color: #000;
+    background: -webkit-gradient(radial, 50% 100%, 10, 50% 50%, 90, from(rgba(31,169,244,1)), to(rgba(0,28,78, 1)) );
+    background: -moz-radial-gradient(center 80px 45deg, circle cover, rgba(31,169,244,1) 0%, rgba(0,28,78, 1) 100%);
+}

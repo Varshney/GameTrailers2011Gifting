@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rcdGames" value="name:id_game;datatype:int,name:game;datatype:string,name:pic;datatype:string" />
+	<infoitem key="UD_rcdUser" value="name:id_user;datatype:int,name:username;datatype:string" />
+	<infoitem key="UD_rcdUser2" value="name:id_user;datatype:int,name:username;datatype:string" />
+	<infoitem key="UD_rcdGifts" value="name:gift;datatype:string,name:game;datatype:string,name:rec;datatype:string" />
+	<infoitem key="UD_Recordset1" value="name:id_gift;datatype:int,name:gifter;datatype:int,name:game_id;datatype:int,name:receiver;datatype:int,name:id_user;datatype:int,name:username;datatype:string,name:id_user;datatype:int,name:username;datatype:string,name:id_game;datatype:int,name:game;datatype:string,name:pic;datatype:string" />
+	<infoitem key="UD_Recordset2" value="name:gift;datatype:string,name:game;datatype:string,name:rec;datatype:string" />
+</info>

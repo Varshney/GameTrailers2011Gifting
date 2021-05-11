@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rcdGifted" value="name:id_user;datatype:int,name:username;datatype:string,name:COUNT(gt_gifts.gifter);datatype:int" />
+	<infoitem key="UD_rcdReceived" value="name:id_user;datatype:int,name:username;datatype:string,name:COUNT(gt_gifts.receiver);datatype:int" />
+	<infoitem key="UD_rcdUsers" value="name:id_user;datatype:int,name:username;datatype:string" />
+	<infoitem key="UD_Recordset1" value="name:id_user;datatype:int,name:username;datatype:string,name:id_game;datatype:int,name:game;datatype:string,name:pic;datatype:string,name:id_gift;datatype:int,name:gifter;datatype:int,name:game_id;datatype:int,name:receiver;datatype:int" />
+	<infoitem key="UD_rcdUserGifted" value="name:id_user;datatype:int,name:username;datatype:string,name:id_game;datatype:int,name:game;datatype:string,name:pic;datatype:string,name:id_gift;datatype:int,name:gifter;datatype:int,name:game_id;datatype:int,name:receiver;datatype:int" />
+	<infoitem key="UD_rcdUserReceived" value="name:id_user;datatype:int,name:username;datatype:string,name:id_game;datatype:int,name:game;datatype:string,name:pic;datatype:string,name:id_gift;datatype:int,name:gifter;datatype:int,name:game_id;datatype:int,name:receiver;datatype:int" />
+	<infoitem key="UD_rcdUsername" value="name:id_user;datatype:int,name:username;datatype:string" />
+	<infoitem key="UD_rcdUserGiftStat" value="name:id_user;datatype:int,name:username;datatype:string,name:id_game;datatype:int,name:game;datatype:string,name:pic;datatype:string,name:id_gift;datatype:int,name:gifter;datatype:int,name:game_id;datatype:int,name:receiver;datatype:int,name:id_user2;datatype:int,name:username2;datatype:string" />
+	<infoitem key="UD_rcdUserRecStat" value="name:id_user;datatype:int,name:username;datatype:string,name:id_game;datatype:int,name:game;datatype:string,name:pic;datatype:string,name:id_gift;datatype:int,name:gifter;datatype:int,name:game_id;datatype:int,name:receiver;datatype:int,name:id_user2;datatype:int,name:username2;datatype:string" />
+</info>

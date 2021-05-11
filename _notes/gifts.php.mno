@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rcdGifts" value="name:id_gift;datatype:int,name:gifter;datatype:int,name:game_id;datatype:int,name:receiver;datatype:int,name:id_game;datatype:int,name:game;datatype:string,name:pic;datatype:string,name:id_user;datatype:int,name:username;datatype:string,name:id_user2;datatype:int,name:username2;datatype:string" />
+</info>

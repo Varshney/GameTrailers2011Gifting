@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rcdGame" value="name:id_game;datatype:int,name:game;datatype:string,name:pic;datatype:string" />
+</info>
